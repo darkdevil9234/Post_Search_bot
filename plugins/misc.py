@@ -8,10 +8,10 @@ async def start(bot, message):
     await add_user(message.from_user.id, message.from_user.first_name)
     await message.reply(text=script.START.format(message.from_user.mention),
                         disable_web_page_preview=True,
-                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'http://telegram.me/Link_Search_Robot?startgroup=true')
-            ],[InlineKeyboardButton("ʜᴇʟᴘ", url="http://telegram.me/BotszSupport"),
+                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'http://telegram.me/Shazam_movies_bot?startgroup=true')
+            ],[InlineKeyboardButton("ʜᴇʟᴘ", url="http://telegram.me/cinemaa_boxoffice"),
 
-InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboardButton('❂   ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇꜱ  ᴄʜᴀɴɴᴇʟ   ❂', url=f'http://telegram.me/BotszList')]]))  
+InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboardButton('❂   ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇꜱ  ᴄʜᴀɴɴᴇʟ   ❂', url=f'http://telegram.me/cinemaa_boxoffice')]]))  
 @Client.on_message(filters.command("help"))
 async def help(bot, message):
     await message.reply(text=script.HELP,
@@ -48,14 +48,14 @@ async def misc(bot, update):
     if data=="home":
        await update.message.edit(text=script.START.format(update.from_user.mention),
                                  disable_web_page_preview=True,
-                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'http://telegram.me/Link_Search_Robot?startgroup=true')
-            ],[InlineKeyboardButton("ʜᴇʟᴘ", url="http://telegram.me/BotszSupport"),
+                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'http://telegram.me/Shazam_movies_bot?startgroup=true')
+            ],[InlineKeyboardButton("ʜᴇʟᴘ", url="http://telegram.me/cinemaa_boxoffice"),
 
-InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboardButton('❂   ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇꜱ  ᴄʜᴀɴɴᴇʟ   ❂', url=f'http://telegram.me/BotszList')]])) 
+InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboardButton('❂   ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇꜱ  ᴄʜᴀɴɴᴇʟ   ❂', url=f'http://telegram.me/cinemaa_boxoffice')]])) 
     elif data=="help":
        await update.message.edit(text=script.HELP, 
                                  disable_web_page_preview=True,
-                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🧑‍💻   ᴄᴏɴᴛᴀᴄᴛ  ᴛᴏ  ᴏᴡɴᴇʀ   🧑‍💻',url='https://telegram.me/NobiDeveloperr')],[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="misc_home"),InlineKeyboardButton("ɴᴇxᴛ", url="https://telegra.ph/SUPPORT-12-22-2")]])) 
+                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🧑‍💻   ᴄᴏɴᴛᴀᴄᴛ  ᴛᴏ  ᴏᴡɴᴇʀ   🧑‍💻',url='https://telegram.me/DwayneJohnsonl')],[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="misc_home"),InlineKeyboardButton("ɴᴇxᴛ", url="https://telegra.ph/SUPPORT-12-22-2")]])) 
 
 
     elif data=="about":
