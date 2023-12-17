@@ -44,7 +44,7 @@ class script(object):
 /connections"""
 
     ABOUT = """<b>➣ ᴍʏ ɴᴀᴍᴇ ⋟  {}</b>
-<b>➢ ᴄʀᴇᴀᴛᴏʀ ⋟  <a href=https://telegram.me/DwayneJohnsonl>ɴᴏʙɪᴛᴀ</a></b>
+<b>➢ ᴄʀᴇᴀᴛᴏʀ ⋟  <a href=https://telegram.me/DwayneJohnsonl>🦋🥀𝗗ᾰ𝐫𝙺𝗗èνⲓＬ🥀🦋</a></b>
 <b>➢ ʟᴀɴɢᴜᴀɢᴇ ⋟  <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a></b>
 <b>➣ ᴅᴀᴛᴀʙᴀsᴇ ⋟  <a href=https://www.mongodb.com>ᴍᴏɴɢᴏ ᴅʙ</a></b>
 <b>➢ ʙᴏᴛ sᴇʀᴠᴇʀ ⋟  <a href=https://heroku.com>ʜᴇʀᴏᴋᴜ</a></b>
