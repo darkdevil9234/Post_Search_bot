@@ -55,7 +55,7 @@ InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboa
     elif data=="help":
        await update.message.edit(text=script.HELP, 
                                  disable_web_page_preview=True,
-                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🧑‍💻   ᴄᴏɴᴛᴀᴄᴛ  ᴛᴏ  ᴏᴡɴᴇʀ   🧑‍💻',url='https://telegram.me/DwayneJohnsonl')],[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="misc_home"),InlineKeyboardButton("ɴᴇxᴛ", url="https://telegra.ph/SUPPORT-12-22-2")]])) 
+                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🧑‍💻   ᴄᴏɴᴛᴀᴄᴛ  ᴛᴏ  ᴏᴡɴᴇʀ   🧑‍💻',url='https://telegram.me/DwayneJohnsonl')],[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="misc_home"),InlineKeyboardButton("ɴᴇxᴛ", url="https://telegra.ph/SUPPORT-12-17-3")]])) 
 
 
     elif data=="about":
@@ -66,17 +66,17 @@ InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboa
 @Client.on_message(filters.command("follow"))
 async def follow_msg(bot, message):
     btn = [[
-        InlineKeyboardButton(text="ᴛᴡɪᴛᴛᴇʀ", url="https://twitter.com/NobiDeveloper"),
-        InlineKeyboardButton(text="ɪɴꜱᴛᴀɢʀᴀᴍ", url="https://instagram.com/NobiDeveloper")
+        InlineKeyboardButton(text="ᴛᴡɪᴛᴛᴇʀ", url="https://twitter.com"),
+        InlineKeyboardButton(text="ɪɴꜱᴛᴀɢʀᴀᴍ", url="https://instagram.com")
         ],[
-        InlineKeyboardButton(text="ɢɪᴛʜᴜʙ  ᴀᴄᴄᴏᴜɴᴛ", url="https://github.com/NobiDeveloper")
+        InlineKeyboardButton(text="Telegram ᴀᴄᴄᴏᴜɴᴛ", url="https://telegram.me/DwayneJohnsonl")
     ],[
-        InlineKeyboardButton(text="ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴡᴇʙꜱɪᴛᴇ", url="https://nobideveloper.blogspot.com")
+        InlineKeyboardButton(text="ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴡᴇʙꜱɪᴛᴇ", url="https://t.me/moviesworld738")
     ],[
-        InlineKeyboardButton(text="ꜱᴜʙꜱᴄʀɪʙᴇ  ᴏᴜʀ  ʏᴛ  ᴄʜᴀɴɴᴇʟ", url="https://youtube.com/@NobiDeveloper")
+        InlineKeyboardButton(text="ꜱᴜʙꜱᴄʀɪʙᴇ  ᴏᴜʀ  ᎿᎶ  ᴄʜᴀɴɴᴇʟ", url="https://telegram.me/moviesworld738")
     ],[
-        InlineKeyboardButton(text="ʀᴇᴠɩᴇᴡꜱ", url="https://telegram.me/ReviewsGallary"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://telegram.me/NobiDeveloper")
+        InlineKeyboardButton(text="ʀᴇᴠɩᴇᴡꜱ", url="https://telegram.me/Hindi_Hd_movies1st"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://telegram.me/Cinemaa_Boxoffice")
     ]]
     yt = await message.reply_photo(photo='https://telegra.ph/file/b681d379605d3d3a9fa1c.jpg', caption="<b>ᴏᴜʀ  ꜱᴏᴄɪᴀʟ  ᴍᴇᴅɪᴀ  ᴘʟᴀᴛꜰᴏʀᴍꜱ</b>", reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(500)
@@ -91,7 +91,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     await message.reply_text(
          text="<b>ʜʏ,\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴏᴠɪᴇs / sᴇʀɪᴇs ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ꜰɪʀsᴛ ʙᴜᴛᴛᴏɴ ᴏʀ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ɪɴ ʙᴏᴛ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ sᴇᴄᴏɴᴅ ʙᴜᴛᴛᴏɴ</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝  ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"https://telegram.me/AllRequestGroups")],[InlineKeyboardButton("🧑‍💻  ʙᴏᴛ ᴏᴡɴᴇʀ ", url=f"https://telegram.me/Nobideveloperr")]]), disable_web_page_preview=True
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝  ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"https://telegram.me/All_movies_hub_4_u")],[InlineKeyboardButton("🧑‍💻  ʙᴏᴛ ᴏᴡɴᴇʀ ", url=f"https://telegram.me/DwayneJohnsonl")]]), disable_web_page_preview=True
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
